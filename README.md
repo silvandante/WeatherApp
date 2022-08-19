@@ -1,9 +1,12 @@
 # Weather App
 
 Demo: https://youtu.be/Q5sv4wcKFuc
+![Screen 1](https://raw.githubusercontent.com/silvandante/WeatherApp/master/print1.jpg)
+![Screen 2](https://raw.githubusercontent.com/silvandante/WeatherApp/master/print2.jpg)
+![Screen 3](https://raw.githubusercontent.com/silvandante/WeatherApp/master/print3.jpg)
 
 App Description:
--
+- App to see weather around the world with 10 previous countries in europe and current location, but you can also search for new places and get to know their weather, current time and some other details!
 
 The application is composed by:
 - Splash screen page
