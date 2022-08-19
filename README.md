@@ -1,9 +1,9 @@
 # Weather App
 
 Demo: https://youtu.be/Q5sv4wcKFuc
-![Screen 1](https://raw.githubusercontent.com/silvandante/WeatherApp/master/print1.jpg)
-![Screen 2](https://raw.githubusercontent.com/silvandante/WeatherApp/master/print2.jpg)
-![Screen 3](https://raw.githubusercontent.com/silvandante/WeatherApp/master/print3.jpg)
+![Screen 1](https://raw.githubusercontent.com/silvandante/WeatherApp/master/print1.jpg=250x)
+![Screen 2](https://raw.githubusercontent.com/silvandante/WeatherApp/master/print2.jpg=250x)
+![Screen 3](https://raw.githubusercontent.com/silvandante/WeatherApp/master/print3.jpg=250x)
 
 App Description:
 - App to see weather around the world with 10 previous countries in europe and current location, but you can also search for new places and get to know their weather, current time and some other details!
