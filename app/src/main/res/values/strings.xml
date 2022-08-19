@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Weather</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="weather_title">Weather</string>
+    <string name="city_name">%1$s %2$s</string>
+    <string name="city_name_current_location">(You) %1$s %2$s</string>
+    <string name="temp_max_min">%1$s° %2$s°</string>
+    <string name="degree_detail">%1$s</string>
+
+</resources>

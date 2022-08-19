@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginVertical="10dp"
+    android:background="@drawable/card_background"
+    android:elevation="3dp"
+    android:paddingBottom="16dp">
+
+    <TextView
+        android:id="@+id/tvDegree"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:text="85"
+        android:textSize="42dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="12dp"
+        android:text="Cloudy"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDegree" />
+
+    <TextView
+        android:id="@+id/tvCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:text="Los Angeles, CA"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDesc" />
+
+    <ImageView
+        android:id="@+id/imageWeather"
+        android:layout_width="120dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="8dp"
+        android:adjustViewBounds="true"
+        android:foregroundGravity="center_vertical|center|center_horizontal"
+        android:minWidth="126dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvDesc"
+        app:layout_constraintEnd_toStartOf="@+id/humidityContainer"
+        app:layout_constraintStart_toEndOf="@+id/tvDegree"
+        app:layout_constraintTop_toTopOf="@+id/tvDegree"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <LinearLayout
+        android:id="@+id/humidityContainer"
+        android:background="@drawable/humidity_item"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:gravity="center"
+        android:paddingHorizontal="8dp"
+        android:paddingVertical="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageWeather">
+
+        <TextView
+            android:id="@+id/tvHumidity"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textColor="@android:color/white"
+            android:text="60" />
+
+        <ImageView
+            android:id="@+id/humidityIcon"
+            android:layout_width="11dp"
+            android:layout_height="11dp"
+            android:background="@color/colorPrimary"
+            android:layout_marginStart="3dp"
+            android:foregroundGravity="center_vertical|center|center_horizontal"
+            android:src="@mipmap/humitidy_icon"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvDay"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:text="35"
+        android:textSize="38sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/humidityContainer"
+        app:layout_constraintStart_toStartOf="@+id/humidityContainer"
+        app:layout_constraintTop_toBottomOf="@+id/humidityContainer" />
+
+    <TextView
+        android:id="@+id/tvDayName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MON"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tvCity"
+        app:layout_constraintEnd_toEndOf="@+id/tvDay"
+        app:layout_constraintStart_toStartOf="@+id/tvDay"
+        app:layout_constraintTop_toBottomOf="@+id/tvDay" />
+</androidx.constraintlayout.widget.ConstraintLayout>

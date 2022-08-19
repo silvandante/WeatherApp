@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../layout/custom_preview.xml" value="0.16614583333333333" />
+        <entry key="app/src/main/res/drawable/bg_gradient.xml" value="0.1495" />
+        <entry key="app/src/main/res/drawable/card_background.xml" value="0.1135" />
+        <entry key="app/src/main/res/drawable/card_view_border.xml" value="0.2085" />
+        <entry key="app/src/main/res/drawable/divider.xml" value="0.1495" />
+        <entry key="app/src/main/res/drawable/heart.xml" value="0.1195" />
+        <entry key="app/src/main/res/drawable/heart_empty.xml" value="0.1195" />
+        <entry key="app/src/main/res/drawable/heart_filled.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/humidity_item.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_border_ring.xml" value="0.1495" />
+        <entry key="app/src/main/res/drawable/ic_cart.xml" value="0.1195" />
+        <entry key="app/src/main/res/drawable/ic_fav_outline.xml" value="0.1495" />
+        <entry key="app/src/main/res/drawable/ic_filter.xml" value="0.1495" />
+        <entry key="app/src/main/res/drawable/ic_heart.xml" value="0.1195" />
+        <entry key="app/src/main/res/drawable/ic_ocean.xml" value="0.1455" />
+        <entry key="app/src/main/res/drawable/ic_options.xml" value="0.1495" />
+        <entry key="app/src/main/res/drawable/ic_popular.xml" value="0.1495" />
+        <entry key="app/src/main/res/drawable/ic_pressure.xml" value="0.1455" />
+        <entry key="app/src/main/res/drawable/ic_rate_filled.xml" value="0.1495" />
+        <entry key="app/src/main/res/drawable/ic_search.xml" value="0.1495" />
+        <entry key="app/src/main/res/drawable/splash_background.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/splashscreen_background.xml" value="0.1885" />
+        <entry key="app/src/main/res/drawable/text_view_border.xml" value="0.2085" />
+        <entry key="app/src/main/res/layout-v23/weather_item.xml" value="0.10208333333333333" />
+        <entry key="app/src/main/res/layout-v28/phone_item.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_phone.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.10833333333333334" />
+        <entry key="app/src/main/res/layout/fragment_first.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/fragment_phone.xml" value="0.30333333333333334" />
+        <entry key="app/src/main/res/layout/fragment_second.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/fragment_splash_screen.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/fragment_weather_detail.xml" value="0.33440303289511386" />
+        <entry key="app/src/main/res/layout/fragment_weather_list.xml" value="0.24880382775119617" />
+        <entry key="app/src/main/res/layout/list_menu.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/load_state_footer.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/phone_item.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/weather_detail_item.xml" value="0.31515761792850183" />
+        <entry key="app/src/main/res/layout/weather_item.xml" value="0.6333231907264859" />
+        <entry key="app/src/main/res/menu-v26/main_menu.xml" value="0.13958333333333334" />
+        <entry key="app/src/main/res/menu/main_menu.xml" value="0.10622275069361871" />
+        <entry key="app/src/main/res/menu/menu_weather.xml" value="0.3285588582356771" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1885" />
+      </map>
+    </option>
+  </component>
+  <component name="NullableNotNullManager">
+    <option name="myDefaultNullable" value="android.support.annotation.Nullable" />
+    <option name="myDefaultNotNull" value="android.support.annotation.NonNull" />
+    <option name="myNullables">
+      <value>
+        <list size="12">
+          <item index="0" class="java.lang.String" itemvalue="org.jetbrains.annotations.Nullable" />
+          <item index="1" class="java.lang.String" itemvalue="javax.annotation.Nullable" />
+          <item index="2" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.Nullable" />
+          <item index="3" class="java.lang.String" itemvalue="android.support.annotation.Nullable" />
+          <item index="4" class="java.lang.String" itemvalue="javax.annotation.CheckForNull" />
+          <item index="5" class="java.lang.String" itemvalue="androidx.annotation.Nullable" />
+          <item index="6" class="java.lang.String" itemvalue="androidx.annotation.RecentlyNullable" />
+          <item index="7" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.qual.Nullable" />
+          <item index="8" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NullableDecl" />
+          <item index="9" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NullableType" />
+          <item index="10" class="java.lang.String" itemvalue="org.eclipse.jdt.annotation.Nullable" />
+          <item index="11" class="java.lang.String" itemvalue="com.android.annotations.Nullable" />
+        </list>
+      </value>
+    </option>
+    <option name="myNotNulls">
+      <value>
+        <list size="11">
+          <item index="0" class="java.lang.String" itemvalue="org.jetbrains.annotations.NotNull" />
+          <item index="1" class="java.lang.String" itemvalue="javax.annotation.Nonnull" />
+          <item index="2" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.NonNull" />
+          <item index="3" class="java.lang.String" itemvalue="android.support.annotation.NonNull" />
+          <item index="4" class="java.lang.String" itemvalue="androidx.annotation.NonNull" />
+          <item index="5" class="java.lang.String" itemvalue="androidx.annotation.RecentlyNonNull" />
+          <item index="6" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.qual.NonNull" />
+          <item index="7" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NonNullDecl" />
+          <item index="8" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NonNullType" />
+          <item index="9" class="java.lang.String" itemvalue="com.android.annotations.NonNull" />
+          <item index="10" class="java.lang.String" itemvalue="org.eclipse.jdt.annotation.NonNull" />
+        </list>
+      </value>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

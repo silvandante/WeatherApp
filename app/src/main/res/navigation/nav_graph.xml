@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/weatherFragment">
+    <fragment
+        android:id="@+id/weatherFragment"
+        android:name="android.weatherapp.com.weather.ui.weather.WeatherFragment"
+        android:label="Weather List"
+        tools:layout="@layout/fragment_weather_list">
+        <action
+            android:id="@+id/action_weatherFragment_to_weatherDetailFragment"
+            app:destination="@id/weatherDetailFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:launchSingleTop="false"
+            app:popUpTo="@id/weatherDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/weatherDetailFragment"
+        android:name="android.weatherapp.com.weather.ui.weather.WeatherDetailFragment"
+        android:label="Weather Detail"
+        tools:layout="@layout/fragment_weather_detail">
+        <action
+            android:id="@+id/action_weatherDetailFragment_to_weatherFragment"
+            app:destination="@id/weatherFragment"
+            app:enterAnim="@android:anim/slide_out_right"
+            app:exitAnim="@android:anim/slide_in_left"
+            app:popUpTo="@id/weatherFragment" />
+        <argument
+            android:name="weatherObject"
+            app:argType="android.weatherapp.com.weather.model.WeatherObject" />
+    </fragment>
+</navigation>
