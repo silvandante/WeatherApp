@@ -2,6 +2,14 @@
 
 Demo: https://youtu.be/Q5sv4wcKFuc
 
+Time effort:
+- Day 15 aug (30 min): Project creation and add dependencies
+- Day 16 (1 1/2 hours): Add splash screen theme, activity, fragment, navigation and all UI components
+- Day 17 (1 1/2 hours): Add room and remote data structures
+- Day 18 (1 1/2 hours): Consume data from room and remote and merge it with UI
+- Day 19 (1 hour): Add unit testing
+Total hours: 6 hours
+
 App Description:
 - App to see weather around the world with 10 previous countries in europe and current location, but you can also search for new places and get to know their weather, current time and some other details!
 
